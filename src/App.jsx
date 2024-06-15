@@ -14,11 +14,13 @@ function App() {
           muted
           className="absolute inset-0 w-full h-full object-cover"
         ></video>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-          {/* <h1 className="text-8xl font-bold mb-8">Watch the 28th Annual Webby Awards</h1> 
+        <div className="absolute top-44 w-96 ml-5  sm:w-4/5 sm:ml-20  text-white">
+          <h1 className="text-5xl sm:text-7xl  font-bold mb-8">
+            Watch the 28th Annual Webby Awards
+          </h1>
           <button className="text-xl font-semibold text-black bg-white rounded-full p-3">
             Highlights Here
-          </button> */}
+          </button>
         </div>
       </div>
       <New />
