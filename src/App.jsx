@@ -1,11 +1,36 @@
 import "./App.css";
 import Menu from "./components/Menu";
 import New from "./components/New";
+import gsap from "gsap";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+// import 'swiper/swiper-bundle.min.css';
 
 function App() {
+  const cursorRef = useRef();
+
+  useGSAP(() => {
+    const handleMouseMove = (event) => {
+      gsap.to(cursorRef.current, {
+        x: event.clientX,
+        y: event.clientY,
+        ease: "back.out(1.7)",
+      });
+    };
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
   return (
     <>
       <Menu />
+      <div
+        id="dot"
+        className="bg-transparent border border-dotted border-white rounded-full w-12 h-12 fixed z-10 "
+        ref={cursorRef}
+      ></div>
+      
       <div className="relative w-full h-screen overflow-hidden">
         <video
           src="videos/hero.mp4"

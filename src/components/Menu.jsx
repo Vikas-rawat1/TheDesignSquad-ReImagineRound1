@@ -4,20 +4,21 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 
 function Menu() {
   const navText = {
-    border: "1px solid #4A5568", // Using a gray color for the border
-    borderRadius: "0.5rem", // Use rem for better responsiveness
+    border: "1px solid #4A5568",
+    borderRadius: "0.5rem",
     padding: "8px",
-    color: "#FFFFFF", // White text color
+    color: "#FFFFFF",
+    fontWeight:"bold",
+  
   };
 
   const navBrandText = {
     ...navText,
-    backgroundColor: "#2D3748", // Slightly darker gray for the brand
+    backgroundColor: "#2D3748",
   };
 
   return (
