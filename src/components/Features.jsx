@@ -28,7 +28,7 @@ function Features() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="text-9xl  relative">28 Annual Webby Award Highlights</h1>
+        <h1 className="md:text-9xl  relative">Our Legacy of Innovation</h1>
 
         <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
       </div>
@@ -59,7 +59,7 @@ function Features() {
           ></video>
         </div>
       </div>
-      <div className=" fixed right-0 bottom-0 z-10">
+      {/* <div className=" fixed right-0 bottom-0 z-10">
         <div>
           <svg
             ref={rotateRef}
@@ -97,7 +97,7 @@ function Features() {
         <div className="absolute inset-0 flex rotate-0 items-center justify-center text-white">
           <RiArrowDownLine size={42} />
         </div>
-      </div>
+      </div> */}
 
 {/*       
         <video

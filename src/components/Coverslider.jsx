@@ -9,6 +9,7 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 function Coverslider() {
   return (
     <>
+    <div className="ml-10">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -91,6 +92,7 @@ function Coverslider() {
           ></video>
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }

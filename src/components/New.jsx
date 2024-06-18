@@ -5,7 +5,7 @@ function New() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="text-9xl  relative">
+        <h1 className="sm:text-9xl  relative">
           THE LATEST FROM THE{" "}
           <span className="relative inline-block">
             WEBBYS

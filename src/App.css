@@ -1,7 +1,19 @@
+/* @font-face{
+  font-family: cfont;
+  src: url('font/PlayfairDisplay-Black.ttf');
+} */
+@font-face{
+  font-family: cfont;
+  src: url('font/PlayfairDisplay-Regular.ttf');
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: cfont;
 }
 
 html,
