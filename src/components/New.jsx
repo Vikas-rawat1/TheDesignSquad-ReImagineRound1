@@ -1,7 +1,5 @@
-import React from "react";
-// import MyComponent from "../components/MyComponent";
-// import Marquee from "react-fast-marquee";
 import Features from "./Features";
+import Coverslider from "./Coverslider";
 
 function New() {
   return (
@@ -18,41 +16,9 @@ function New() {
 
         <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
       </div>
+      <Coverslider />
 
-      <div className="mt-20 ml-10 flex gap-10  right-10">
-        <video
-          src="videos/video.mp4"
-          loop
-          muted
-          autoPlay
-          className="w-1/5 h-2/5 "
-        ></video>
-        <video
-          src="videos/video.mp4"
-          loop
-          muted
-          autoPlay
-          className="w-1/5 h-2/5 "
-        ></video>
-        <video
-          src="videos/video.mp4"
-          loop
-          muted
-          autoPlay
-          className="w-1/5 h-2/5 "
-        ></video>
-        <video
-          src="videos/video.mp4"
-          loop
-          muted
-          autoPlay
-          className="w-1/5 h-2/5 "
-        ></video>
-      </div>
-      {/* <img src="images/test.jpg" alt="Image failed" className="w-1/5" />
-        <img src="images/test.jpg" alt="Image failed" className="w-1/5" />
-        <img src="images/test.jpg" alt="Image failed" className="w-1/5" /> */}
-        <Features/>
+      <Features />
     </>
   );
 }

@@ -1,8 +1,8 @@
-// import Coverslider from "./Coverslider";
 // import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { RiArrowDownLine } from "react-icons/ri";
+import Video from "./Video";
 
 function Features() {
   const rotateRef = useRef();
@@ -58,9 +58,8 @@ function Features() {
             // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
-        {/* <div></div> */}
       </div>
-      <div className=" fixed right-0 bottom-0 ">
+      <div className=" fixed right-0 bottom-0 z-10">
         <div>
           <svg
             ref={rotateRef}
@@ -69,14 +68,13 @@ function Features() {
             viewBox="0 0 200 200"
             className="circle"
           >
-            {/* Define the path */}
+            Define the path
             <defs>
               <path
                 id="txt-path"
                 d="M100,100 m-75,0 a75,75 0 1,1 150,0 a75,75 0 1,1 -150,0"
               />
             </defs>
-
             <text dy="2" fontSize="19" fill="white">
               <textPath
                 startOffset="0"
@@ -101,7 +99,7 @@ function Features() {
         </div>
       </div>
 
-      {/*
+{/*       
         <video
           src="videos/video.mp4"
           autoPlay
@@ -110,7 +108,7 @@ function Features() {
           className="w-1/5 h-full"
           // className="absolute inset-0 w-full h-full object-cover"
         ></video> */}
-      {/* <Coverslider/> */}
+      <Video />
     </>
   );
 }
