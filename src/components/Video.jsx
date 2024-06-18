@@ -107,7 +107,7 @@ function Video() {
 
       <div className="relative w-full  md:w-3/5 flex justify-center items-center m-auto ">
         <h2
-          className="absolute top-40 md:top-28 text-white w-full text-center  text-4xl md:text-6xl opacity-0  block "
+          className="absolute top-96 md:top-64 text-white md:w-full text-center  text-4xl md:text-6xl opacity-0  block "
           ref={(el) => (textRefs.current[2] = el)}
         >
           LIVE YOUR OWN
