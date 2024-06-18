@@ -67,8 +67,10 @@ function Video() {
 
   return (
     <>
-      <div className="text-white mt-20 ml-10">
-        <h1 className="text-7xl sm:text-7xl  relative">Awards & achievements</h1>
+      <div className="text-white mt-10 md:mt-20 ml-10">
+        <h1 className="text-5xl md:text-8xl  relative">
+          Awards & achievements 
+        </h1>
         <h2 className="text-2xl mt-5 ml-4">2024 Featuring Moments...</h2>
       </div>
       <div
@@ -78,37 +80,42 @@ function Video() {
         <div className="flex">
           <h1
             ref={(el) => (textRefs.current[0] = el)}
-            className="absolute top-1 left-20 text-9xl z-10 transform"
+            className="absolute top-20 left-20 text-4xl md:top-10 md:left-20 md:text-6xl lg:text-9xl z-10 transform"
           >
             PLAY
           </h1>
           <h1
             ref={(el) => (textRefs.current[1] = el)}
-            className="absolute top-1 right-20 text-9xl z-10 transform"
+            className="absolute top-20  right-20  text-4xl md:top-10 md:right-20 md:text-6xl lg:text-9xl z-10 transform"
           >
             PLAY
           </h1>
         </div>
-        <div className="w-2/5 h-screen object-cover" ref={videoRef}>
+        <div className="md:w-2/5 object-cover" ref={videoRef}>
           <div ref={containerRef}></div>
           <video
             src="videos/home.mp4"
             loop
             autoPlay
             muted
+            // className="h-screen w-full"
             // className="w-2/5 h-screen object-cover"
             // ref={videoRef}
           ></video>
         </div>
       </div>
 
-      <div className="relative w-3/5 flex justify-center items-center m-auto ">
+      <div className="relative w-full  md:w-3/5 flex justify-center items-center m-auto ">
         <h2
-          className="absolute top-28 text-white w-full text-center  text-6xl opacity-0  block "
+          className="absolute top-80 md:top-28 text-white w-full text-center  text-4xl md:text-6xl opacity-0  block "
           ref={(el) => (textRefs.current[2] = el)}
         >
           LIVE YOUR OWN
-          <span className="text-8xl block text-red-600"> UNIQUE</span> ADVENTURE
+          <span className="text-6xl md:text-8xl block text-red-600">
+            {" "}
+            UNIQUE
+          </span>{" "}
+          ADVENTURE
         </h2>
       </div>
       {/* <A/> */}

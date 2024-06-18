@@ -6,10 +6,11 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "../styles.css"; // Ensure styles.css is created and linked
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import Features from "./Features";
 function Coverslider() {
   return (
     <>
-    <div className="ml-10">
+    <div className="ml-0 sm:ml-10">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

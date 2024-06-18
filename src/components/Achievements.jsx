@@ -16,14 +16,34 @@ function Achievements() {
   return (
     <>
       {/* <div className="text-white"> */}
-      <div className="text-white mt-20 text-4xl flex items-center ">
-        <Marquee className="overflow-hidden">
+      <div className="text-white mt-10 text-4xl flex items-center ">
+        {/* <Marquee className="overflow-hidden">
           <h1>INNNOVATION REWARDED HERE </h1>
           <RiArrowRightLine className="text-white" size={36} />
         </Marquee>
         <Marquee className="overflow-hidden">
           <h1>INNNOVATION REWARDED HERE </h1>
           <RiArrowRightLine className="text-white" size={36} />
+        </Marquee> */}
+
+        <Marquee
+          behavior="scroll"
+          direction="left"
+          pauseOnHover
+          className="text-4xl overflow-hidden   "
+        >
+          <h1 className="flex gap-1">
+            INNNOVATION REWARDED HERE
+            <RiArrowRightLine fill="white" size={36} />
+            INNNOVATION REWARDED HERE
+            <RiArrowRightLine fill="white" size={36} />
+          </h1>
+          <h1 className="flex gap-1">
+            INNNOVATION REWARDED HERE
+            <RiArrowRightLine fill="white" size={36} />
+            INNNOVATION REWARDED HERE
+            <RiArrowRightLine fill="white" size={36} />
+          </h1>
         </Marquee>
 
         {/* Add new section for innovation or crativity */}
@@ -43,10 +63,6 @@ function Achievements() {
           slideShadows: true,
         }}
         pagination={false}
-        // navigation={{
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // }}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >

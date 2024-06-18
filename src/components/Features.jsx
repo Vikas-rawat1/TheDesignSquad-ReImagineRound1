@@ -28,24 +28,26 @@ function Features() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="md:text-9xl  relative">Our Legacy of Innovation</h1>
+        <h1 className="text-5xl sm:text-9xl  relative">
+        THE LATEST FROM THE
+        </h1>
 
         <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
       </div>
-      <div className="ml-10 mt-40 flex justify-between gap-20">
-        <div className="ml-20">
+      <div className="md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
+        <div className="md:ml-20">
           <video
             src="videos/feature1.mp4"
             autoPlay
             loop
             muted
-            className="w-full h-5/5"
+            className="w-full md:h-5/5"
             // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
         <div className="text-white">
-          <h1 className="mt-20">GOOD STUFF</h1>
-          <p className="w-3/5 mt-8">
+          <h1 className="md:mt-20">GOOD STUFF</h1>
+          <p className="md:w-3/5 md:mt-8 mt-10">
             Highlights of cases that we passionately built with forward-thinking
             clients and friends over the years.
           </p>
@@ -54,7 +56,7 @@ function Features() {
             autoPlay
             loop
             muted
-            className="w-3/5 h-3/5 mt-20"
+            className="w-full  md:w-3/5  md:h-3/5 mt-20"
             // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
@@ -99,7 +101,7 @@ function Features() {
         </div>
       </div> */}
 
-{/*       
+      {/*       
         <video
           src="videos/video.mp4"
           autoPlay

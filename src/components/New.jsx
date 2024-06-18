@@ -5,7 +5,7 @@ function New() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="sm:text-9xl  relative">
+        <h1 className="text-5xl sm:text-9xl  relative">
           THE LATEST FROM THE{" "}
           <span className="relative inline-block">
             WEBBYS
@@ -14,7 +14,7 @@ function New() {
           .
         </h1>
 
-        <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
+        <h2 className="text-2xl sm:text-2xl mt-5 ml-4">2024 Show Moments...</h2>
       </div>
       <Coverslider />
 

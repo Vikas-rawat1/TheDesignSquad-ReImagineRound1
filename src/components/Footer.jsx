@@ -53,12 +53,14 @@ function Footer() {
         </Marquee>
       </div>
       <div className="text-white mt-20 ml-10">
-        <h1 className="text-9xl relative">The Stories Behind the Site</h1>
+        <h1 className="text-5xl md:text-9xl relative">
+          The Stories Behind the Site
+        </h1>
         <h2 className="text-2xl mt-5 ml-4">2024 Featuring Moments...</h2>
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div>
-            <h1 className="ml-10 mt-20 text-7xl">01</h1>
-            <h3 className="mt-10 ml-10 w-3/5">
+            <h1 className="ml-10 md:mt-20 text-7xl">01</h1>
+            <h3 className="md:mt-10 ml-10 w-3/5">
               Presented by The Webby Awards and WP Engine since 2019, Crafted
               with Code shares the stories behind the best of the Web through
               interviews with developers, designers, and creators around the
@@ -67,8 +69,8 @@ function Footer() {
             </h3>
           </div>
           <div>
-            <h1 className="ml-10 text-7xl mt-60">02</h1>
-            <h3 className="mt-10 ml-10 w-3/5">
+            <h1 className="ml-10 text-7xl md:mt-60">02</h1>
+            <h3 className="md:mt-10 ml-10 w-3/5">
               The Webby Awards celebrate innovation, creativity, and the
               transformative power of digital content. With categories spanning
               from Websites and Mobile Sites to Video and Social, we spotlight
@@ -78,7 +80,7 @@ function Footer() {
           </div>
           <div>
             <h1 className="ml-10 text-7xl">03</h1>
-            <h3 className="ml-10 mt-10 w-3/5">
+            <h3 className="ml-10 md:mt-10 w-3/5">
               Recognized globally as a symbol of digital achievement, we honor
               excellence across diverse digital categories. Our awards celebrate
               the transformative power of digital media and inspire future
@@ -87,8 +89,8 @@ function Footer() {
             </h3>
           </div>
           <div>
-            <h1 className="ml-10 text-7xl mt-40">04</h1>
-            <h3 className="mt-10 ml-10 w-3/5">
+            <h1 className="ml-10 text-7xl md:mt-40">04</h1>
+            <h3 className="md:mt-10 ml-10 w-3/5">
               As we continue to evolve, our mission remains steadfastly focused
               on inspiring and celebrating creativity in digital storytelling.
               Join us in exploring the compelling stories behind the sites that
@@ -99,18 +101,20 @@ function Footer() {
         </div>
       </div>
       <div className="w-fulll h-px mt-20 bg-white"></div>
-      <div className="text-white ml-10 mt-40 w-3/5  text-9xl">
-        <h1>Have a project in mind?</h1>
-        <h1 className="text-xl ">Reach out via e-mail </h1>
+      <div className="text-white ml-10 mt-20 md:mt-40 w-3/5  ">
+        <h1 className="md:text-9xl">Have a project in mind?</h1>
+        <h1 className="text-sm md:text-xl">Reach out via e-mail </h1>
         <div className="flex items-center gap-4 ml-10 m-auto mt-6">
           <RiMailLine fill="white" size={30} />
           <h1 className="text-xl ">webbyawards@gmail.com </h1>
         </div>
       </div>
 
-      <div className="text-white  mt-2 mr-20 flex justify-end">
+      <div className="text-white  mt-2 mr-10 md:mr-20 flex justify-end">
         <div className="3/5 ml-20 mb-20">
-          <h1 className="w-4/5">CONTACT WITH WEBBY AWARDS COLLECTION</h1>
+          <h1 className="w-4/5 mt-20 md:mt-0">
+            CONTACT WITH WEBBY AWARDS COLLECTION
+          </h1>
           <div className="mt-10 flex">
             <input
               type="text"
@@ -124,7 +128,7 @@ function Footer() {
 
       <div className="text-white flex m-auto justify-center">
         <div>
-          <ul className="flex justify-center m-auto flex-row gap-10 ">
+          <ul className="grid grid-cols-2 md:flex md:justify-center m-auto md:flex-row gap-10 ">
             <li>FAQ</li>
             <li>BRAND STUDIO</li>
             <li>CONTACT US</li>
@@ -133,7 +137,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center gap-10 mt-10">
+      <div className="grid grid-cols-2 ml-14 md:flex flex-wrap md:justify-center gap-10 mt-20  md:mt-10">
         <RiInstagramLine fill="white" size={42} />
         <RiFacebookFill fill="white" size={42} />
         <RiTwitterLine fill="white" size={42} />
@@ -142,8 +146,8 @@ function Footer() {
       </div>
 
       <div className="text-white  text-center mt-20 pb-1">
-        <h1 className="text-9xl">WEBBY AWARDS</h1>
-        <h1 className="mb-6 mt-1 m-auto ">
+        <h1 className="md:text-9xl">WEBBY AWARDS</h1>
+        <h1 className="mb-6 mt-1 m-auto text-sm ">
           Honoring The Best Of The Internet Since ©1997
         </h1>
       </div>
