@@ -60,7 +60,7 @@ function Footer() {
         <div className="grid md:grid-cols-2">
           <div>
             <h1 className="ml-10 md:mt-20 text-7xl">01</h1>
-            <h3 className="md:mt-10 ml-10 w-3/5">
+            <h3 className="md:mt-10 ml-10 w-4/5 md:w-3/5">
               Presented by The Webby Awards and WP Engine since 2019, Crafted
               with Code shares the stories behind the best of the Web through
               interviews with developers, designers, and creators around the
@@ -70,7 +70,7 @@ function Footer() {
           </div>
           <div>
             <h1 className="ml-10 text-7xl md:mt-60">02</h1>
-            <h3 className="md:mt-10 ml-10 w-3/5">
+            <h3 className="md:mt-10 ml-10 w-4/5 md:w-3/5">
               The Webby Awards celebrate innovation, creativity, and the
               transformative power of digital content. With categories spanning
               from Websites and Mobile Sites to Video and Social, we spotlight
@@ -80,7 +80,7 @@ function Footer() {
           </div>
           <div>
             <h1 className="ml-10 text-7xl">03</h1>
-            <h3 className="ml-10 md:mt-10 w-3/5">
+            <h3 className="ml-10 md:mt-10 w-4/5 md:w-3/5">
               Recognized globally as a symbol of digital achievement, we honor
               excellence across diverse digital categories. Our awards celebrate
               the transformative power of digital media and inspire future
@@ -90,7 +90,7 @@ function Footer() {
           </div>
           <div>
             <h1 className="ml-10 text-7xl md:mt-40">04</h1>
-            <h3 className="md:mt-10 ml-10 w-3/5">
+            <h3 className="md:mt-10 ml-10 w-4/5 md:w-3/5">
               As we continue to evolve, our mission remains steadfastly focused
               on inspiring and celebrating creativity in digital storytelling.
               Join us in exploring the compelling stories behind the sites that
