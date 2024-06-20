@@ -101,43 +101,47 @@ function Footer() {
         </div>
       </div>
       <div className="w-fulll h-px mt-20 bg-white"></div>
-      <div className="text-white ml-10 mt-20 md:mt-40 w-3/5  ">
-        <h1 className="md:text-9xl">Have a project in mind?</h1>
-        <h1 className="text-sm md:text-xl">Reach out via e-mail </h1>
-        <div className="flex items-center gap-4 ml-10 m-auto mt-6">
+      <div className="text-white ml-10 mt-20 md:mt-40 md:w-3/5  ">
+        <h1 className="text-5xl  md:text-start md:text-8xl lg:text-9xl ">
+          Have a project in mind?
+        </h1>
+        <h1 className="text-xl mt-5 md:text-start md:mt-0 md:text-3xl lg:text-xl">
+          Reach out via e-mail
+        </h1>
+        <div className="flex items-center md:text-start  gap-4  m-auto mt-6">
           <RiMailLine fill="white" size={30} />
-          <h1 className="text-xl ">webbyawards@gmail.com </h1>
+          <h1 className="md:text-2xl lg:text-xl ">webbyawards@gmail.com </h1>
         </div>
       </div>
 
       <div className="text-white  mt-2 mr-10 md:mr-20 flex justify-end">
-        <div className="3/5 ml-20 mb-20">
-          <h1 className="w-4/5 mt-20 md:mt-0">
+        <div className="ml-10 md:w-2/5 md:mt-20 lg:mt-0 lg:w-1/5 md:ml-20 mb-20">
+          <h1 className="mt-5  w-4/5 md:w-5/5 md:text-3xl lg:text-base lg:w-4/5 md:mt-0 lg:mt-0">
             CONTACT WITH WEBBY AWARDS COLLECTION
           </h1>
           <div className="mt-10 flex">
             <input
               type="text"
               placeholder="Email Address"
-              className="bg-transparent border-b-2 outline-none"
+              className="md:w-full md:text-2xl lg:text-xl lg:w-4/5 bg-transparent border-b-2 outline-none"
             />
             <RiArrowRightLine size={42} />
           </div>
         </div>
       </div>
 
-      <div className="text-white flex m-auto justify-center">
-        <div>
-          <ul className="grid grid-cols-2 md:flex md:justify-center m-auto md:flex-row gap-10 ">
+      <div className="text-white flex justify-center">
+        {/* <div> */}
+          <ul className="grid grid-cols-2 md:flex md:justify-center  md:flex-row gap-10 ">
             <li>FAQ</li>
             <li>BRAND STUDIO</li>
             <li>CONTACT US</li>
             <li>PRIVACY</li>
             <li>JOIN THE TEAM</li>
           </ul>
-        </div>
+        {/* </div> */}
       </div>
-      <div className="grid grid-cols-2 ml-14 md:flex flex-wrap md:justify-center gap-10 mt-20  md:mt-10">
+      <div className="grid grid-cols-3 ml-10 md:ml-14 md:flex flex-wrap md:justify-center gap-10 mt-20  md:mt-10">
         <RiInstagramLine fill="white" size={42} />
         <RiFacebookFill fill="white" size={42} />
         <RiTwitterLine fill="white" size={42} />
@@ -146,8 +150,8 @@ function Footer() {
       </div>
 
       <div className="text-white  text-center mt-20 pb-1">
-        <h1 className="md:text-9xl">WEBBY AWARDS</h1>
-        <h1 className="mb-6 mt-1 m-auto text-sm ">
+        <h1 className="text-6xl md:text-9xl">WEBBY AWARDS</h1>
+        <h1 className="mb-6 mt-1 m-auto text-xm md:text-3xl lg:text-sm ">
           Honoring The Best Of The Internet Since ©1997
         </h1>
       </div>

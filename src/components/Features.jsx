@@ -45,9 +45,9 @@ function Features() {
             // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
-        <div className="text-white">
-          <h1 className="md:mt-20">GOOD STUFF</h1>
-          <p className="md:w-3/5 md:mt-8 mt-10">
+        <div className="text-white mt-10 md:mt-0 md:text-3xl lg:text-vase">
+          <h1 className="md:mt-10 lg:mt-20">GOOD STUFF</h1>
+          <p className="md:text-2xl md:w-4/5 lg:w-3/5 md:mt-8 mt-10 lg:text-base">
             Highlights of cases that we passionately built with forward-thinking
             clients and friends over the years.
           </p>

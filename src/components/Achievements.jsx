@@ -16,7 +16,7 @@ function Achievements() {
   return (
     <>
       {/* <div className="text-white"> */}
-      <div className="text-white mt-10 text-4xl flex items-center ">
+      <div className="text-white md:mt-20  lg:mt-10 text-4xl flex items-center ">
         {/* <Marquee className="overflow-hidden">
           <h1>INNNOVATION REWARDED HERE </h1>
           <RiArrowRightLine className="text-white" size={36} />
@@ -30,7 +30,7 @@ function Achievements() {
           behavior="scroll"
           direction="left"
           pauseOnHover
-          className="text-4xl overflow-hidden   "
+          className="text-4xl overflow-hidden  "
         >
           <h1 className="flex gap-1">
             INNNOVATION REWARDED HERE
