@@ -131,17 +131,17 @@ function Footer() {
       </div>
 
       <div className="text-white flex justify-center">
-        {/* <div> */}
-          <ul className="grid grid-cols-2 md:flex md:justify-center  md:flex-row gap-10 ">
+        <div>
+          <ul className="grid grid-cols-2 md:flex md:justify-center md:items-center md:flex-row gap-14 md:gap-10">
             <li>FAQ</li>
             <li>BRAND STUDIO</li>
             <li>CONTACT US</li>
             <li>PRIVACY</li>
             <li>JOIN THE TEAM</li>
           </ul>
-        {/* </div> */}
+        </div>
       </div>
-      <div className="grid grid-cols-3 ml-10 md:ml-14 md:flex flex-wrap md:justify-center gap-10 mt-20  md:mt-10">
+      <div className="grid grid-cols-3 ml-14 md:ml-10 md:flex flex-wrap md:justify-center gap-10  mt-20  md:mt-10">
         <RiInstagramLine fill="white" size={42} />
         <RiFacebookFill fill="white" size={42} />
         <RiTwitterLine fill="white" size={42} />
