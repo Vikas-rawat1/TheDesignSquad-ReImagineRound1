@@ -28,14 +28,12 @@ function Features() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="text-5xl sm:text-9xl  relative">
-        THE LATEST FROM THE
-        </h1>
+        <h1 className="text-5xl sm:text-9xl  relative">THE LATEST FROM THE</h1>
 
         <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
       </div>
       <div className="md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
-        <div className="md:ml-20">
+        <div className="md:ml-20 mt-10 md:mt-0">
           <video
             src="videos/feature1.mp4"
             autoPlay
@@ -46,8 +44,8 @@ function Features() {
           ></video>
         </div>
         <div className="text-white mt-10 md:mt-0 md:text-3xl lg:text-vase">
-          <h1 className="md:mt-10 lg:mt-20">GOOD STUFF</h1>
-          <p className="md:text-2xl md:w-4/5 lg:w-3/5 md:mt-8 mt-10 lg:text-base">
+          <h1 className="md:mt-10  ml-10 md:ml-0 lg:mt-20">GOOD STUFF</h1>
+          <p className="ml-10 md:ml-0 md:text-2xl md:w-4/5 lg:w-3/5 md:mt-8 mt-10 lg:text-base">
             Highlights of cases that we passionately built with forward-thinking
             clients and friends over the years.
           </p>

@@ -30,7 +30,7 @@ function Achievements() {
           behavior="scroll"
           direction="left"
           pauseOnHover
-          className="text-4xl overflow-hidden  "
+          className="text-4xl overflow-hidden mt-10 md:mt-0 md:mb-10 lg:mb-0 "
         >
           <h1 className="flex gap-1">
             INNNOVATION REWARDED HERE
