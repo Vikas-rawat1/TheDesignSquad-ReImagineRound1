@@ -13,7 +13,7 @@ function App() {
       gsap.to(cursorRef.current, {
         x: event.clientX,
         y: event.clientY,
-        ease: "power2.out", 
+        ease: "power2.out",
       });
     };
 
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <div
-        id="dot"
+        // id="dot"
         className="bg-transparent border border-dotted border-white rounded-full w-12 h-12 fixed z-10"
         ref={cursorRef}
       ></div>
@@ -40,11 +40,11 @@ function App() {
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
         ></video>
-        <div className="absolute top-44 w-96 ml-5 sm:w-4/5 sm:ml-20 text-white">
-          <h1 className="text-5xl sm:text-7xl font-bold mb-8">
+        <div className="absolute text-center top-60 md:top-44 md:text-start md:w-4/5 md:ml-20 text-white">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8">
             Watch the 28th Annual Webby Awards
           </h1>
-          <button className="text-xl font-semibold text-black bg-white rounded-full p-3">
+          <button className="text-xl font-semibold text-black bg-white rounded-full p-3 w-3/5 md:w-2/5  lg:w-1/5">
             Highlights Here
           </button>
         </div>

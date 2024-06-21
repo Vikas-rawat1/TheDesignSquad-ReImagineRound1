@@ -88,7 +88,7 @@ function Video() {
             ref={(el) => (textRefs.current[1] = el)}
             className="absolute top-20  right-20  text-4xl md:top-10 md:right-20 md:text-6xl lg:text-9xl z-10 transform"
           >
-            PLAY
+            REEL
           </h1>
         </div>
         <div className="md:w-2/5 object-cover" ref={videoRef}>

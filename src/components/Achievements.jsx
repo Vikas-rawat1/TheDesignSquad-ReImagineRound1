@@ -63,6 +63,19 @@ function Achievements() {
           slideShadows: true,
         }}
         pagination={false}
+        breakpoints={{
+          //When window width is >=320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >
@@ -71,12 +84,32 @@ function Achievements() {
             src="https://spaincollection.com/wp-content/uploads/2020/10/01-466.jpg"
             className="absolute inset-0 w-full h-full object-cover"
           />
+            <div className="text-white absolute bottom-2">
+            <h3 className=" md:text-sm uppercase">
+              <span>Food & wine</span> in barcelona
+            </h3>
+            <h1 className="text-sm md:text-4xl md:w-3/5 lg:text-3xl">Michelin Stars Galore</h1>
+            <h3 className="md:text-sm hidden md:flex">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic
+              dolor, eveniet exercitationem impedit sequi voluptatibus
+            </h3>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img
             src="https://spaincollection.com/wp-content/uploads/2020/10/01-466.jpg"
             className="absolute inset-0 w-full h-full object-cover"
           />
+            <div className="text-white absolute bottom-2">
+            <h3 className=" md:text-sm uppercase">
+              <span>Food & wine</span> in barcelona
+            </h3>
+            <h1 className="text-sm md:text-4xl md:w-3/5 lg:text-3xl">Michelin Stars Galore</h1>
+            <h3 className="md:text-sm hidden md:flex">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic
+              dolor, eveniet exercitationem impedit sequi voluptatibus
+            </h3>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -84,18 +117,28 @@ function Achievements() {
             src="https://spaincollection.com/wp-content/uploads/2020/10/01-182.jpg"
             className="absolute inset-0 w-full h-full object-cover"
           />
+            <div className="text-white absolute bottom-2">
+            <h3 className=" md:text-sm uppercase">
+              <span>Food & wine</span> in barcelona
+            </h3>
+            <h1 className="text-sm md:text-4xl md:w-3/5 lg:text-3xl">Michelin Stars Galore</h1>
+            <h3 className="md:text-sm hidden md:flex">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic
+              dolor, eveniet exercitationem impedit sequi voluptatibus
+            </h3>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img
             src="https://spaincollection.com/wp-content/uploads/2020/10/01-91.jpg"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0  md:w-full  md:h-full object-cover"
           />
-          <div className="text-white absolute bottom-2 upp">
-            <h3 className="text-sm uppercase">
+          <div className="text-white absolute bottom-2">
+            <h3 className=" md:text-sm uppercase">
               <span>Food & wine</span> in barcelona
             </h3>
-            <h1 className=" text-3xl w-3/5">Michelin Stars Galore</h1>
-            <h3 className="text-sm">
+            <h1 className="text-sm md:text-4xl md:w-3/5 lg:text-3xl">Michelin Stars Galore</h1>
+            <h3 className="md:text-sm hidden md:flex">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic
               dolor, eveniet exercitationem impedit sequi voluptatibus
             </h3>
@@ -106,6 +149,16 @@ function Achievements() {
             src="https://spaincollection.com/wp-content/uploads/2020/10/01-96.jpg"
             className="absolute inset-0 w-full h-full object-cover"
           />
+            <div className="text-white absolute bottom-2">
+            <h3 className=" md:text-sm uppercase">
+              <span>Food & wine</span> in barcelona
+            </h3>
+            <h1 className="text-sm md:text-4xl md:w-3/5 lg:text-3xl">Michelin Stars Galore</h1>
+            <h3 className="md:text-sm hidden md:flex">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic
+              dolor, eveniet exercitationem impedit sequi voluptatibus
+            </h3>
+          </div>
         </SwiperSlide>
       </Swiper>
       {/* </div> */}
