@@ -14,7 +14,7 @@ function New() {
           .
         </h1>
 
-        <h2 className="text-2xl sm:text-2xl mt-5 ml-4">2024 Show Moments...</h2>
+        <h2 className="text-2xl sm:text-2xl mt-5 ml-4">2024 Best In Websites & Mobile Sites...</h2>
       </div>
       <Coverslider />
 

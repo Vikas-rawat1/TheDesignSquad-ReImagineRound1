@@ -70,7 +70,7 @@ function Video() {
         <h1 className="text-5xl md:text-8xl  relative">
           Awards & achievements 
         </h1>
-        <h2 className="text-2xl mt-5 ml-4">2024 Featuring Moments...</h2>
+        <h2 className="text-2xl mt-5 ml-4">2024 Featuring Moments in VideoGraphy...</h2>
       </div>
       <div
         // ref={containerRef}

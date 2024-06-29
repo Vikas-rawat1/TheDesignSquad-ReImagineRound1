@@ -10,13 +10,13 @@ function Features() {
     const handleRotateScroll = (dets) => {
       if (dets.deltaY > 0) {
         gsap.to(rotateRef.current, {
-          rotate: "+=360",
+          rotate: "+=30",
           duration: 1,
           ease: "none",
         });
       } else {
         gsap.to(rotateRef.current, {
-          rotate: "-=360",
+          rotate: "-=30",
         });
       }
     };
@@ -28,14 +28,14 @@ function Features() {
   return (
     <>
       <div className="text-white mt-20 ml-10 ">
-        <h1 className="text-5xl sm:text-9xl  relative">THE LATEST FROM THE</h1>
+        <h1 className="text-5xl sm:text-9xl  relative">BEST OF THE INTERNET</h1>
 
-        <h2 className="text-2xl mt-5 ml-4">2024 Show Moments...</h2>
+        <h2 className="text-2xl mt-5 ml-4">2024 Show Innovation...</h2>
       </div>
       <div className="md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
         <div className="md:ml-20 mt-10 md:mt-0">
           <video
-            src="videos/feature1.mp4"
+            src="videos/goodstuff.mp4"
             autoPlay
             loop
             muted
@@ -50,7 +50,7 @@ function Features() {
             clients and friends over the years.
           </p>
           <video
-            src="videos/video.mp4"
+            src="videos/goodstuff2.mp4"
             autoPlay
             loop
             muted
