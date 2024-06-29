@@ -30,7 +30,7 @@ function Features() {
       <div className="text-white mt-20 ml-10 ">
         <h1 className="text-5xl sm:text-9xl  relative">BEST OF THE INTERNET</h1>
 
-        <h2 className="text-2xl mt-5 ml-4">2024 Show Innovation...</h2>
+        <h2 className="text-2xl mt-5 ml-4">2024 Showing Good Stuff...</h2>
       </div>
       <div className="md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
         <div className="md:ml-20 mt-10 md:mt-0">
@@ -55,7 +55,6 @@ function Features() {
             loop
             muted
             className="w-full  md:w-3/5  md:h-3/5 mt-20"
-            // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
       </div>
@@ -99,7 +98,6 @@ function Features() {
         </div>
       </div>
 
-     
       <Video />
     </>
   );

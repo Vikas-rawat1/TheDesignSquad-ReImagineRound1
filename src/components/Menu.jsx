@@ -12,8 +12,7 @@ function Menu() {
     borderRadius: "0.5rem",
     padding: "8px",
     color: "#FFFFFF",
-    fontWeight:"bold",
-  
+    fontWeight: "bold",
   };
 
   const navBrandText = {

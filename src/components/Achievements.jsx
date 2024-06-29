@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import "../styles.css"; // Ensure styles.css is created and linked
+import "../styles.css"; 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import Marquee from "react-fast-marquee";
 import { RiArrowRightLine } from "react-icons/ri";
@@ -49,7 +49,7 @@ function Achievements() {
           behavior="scroll"
           direction="left"
           pauseOnHover
-          className="text-4xl overflow-hidden mt-10 md:mt-0 md:mb-10 lg:mb-0 "
+          className="text-4xl overflow-hidden mt-10 md:mt-0 md:mb-10 lg:mb-0 lg:mt-10 "
         >
           <h1 className="flex gap-1">
             INNNOVATION REWARDED HERE

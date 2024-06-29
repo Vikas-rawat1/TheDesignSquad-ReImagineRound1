@@ -10,13 +10,6 @@ import ReactPlayer from "react-player";
 
 function Coverslider() {
   const videoData = [
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
-    // { video: "https://youtu.be/g7xkVEWrX8E?si=GEsNglrwnNEuV8I8" },
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
-    // { video: "https://youtu.be/k2maqlyUuVw?si=PXe48Wus5Ah2PsD8" },
     { video: "videos/feature1.mp4" },
     { video: "videos/feature2.mp4" },
     { video: "videos/feature3.mp4" },
@@ -68,18 +61,19 @@ function Coverslider() {
                 loop
                 muted
                 playing
-                width="40vw"
-                height="50vh"
+                width="30vw"
+                height="100%"
                 className="hidden md:flex absolute inset-0 w-full h-full object-cover"
               />
               <div className="md:hidden ">
-              <video
-                src={data.video}
-                autoPlay
-                loop
-                muted
-                className="absolute inset-0 w-full h-full object-cover"
-              ></video></div>
+                <video
+                  src={data.video}
+                  autoPlay
+                  loop
+                  muted
+                  className="absolute inset-0 w-full h-full object-cover"
+                ></video>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

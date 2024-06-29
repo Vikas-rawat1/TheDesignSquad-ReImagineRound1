@@ -9,19 +9,12 @@ import {
   RiTwitterLine,
   RiYoutubeLine,
 } from "react-icons/ri";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-cards";
 
 import "../styles.css";
 
-// import required modules
-import { EffectCards } from "swiper/modules";
 
 function Footer() {
+ 
   return (
     <>
       <div className="text-white">
@@ -32,7 +25,8 @@ function Footer() {
           className="text-4xl overflow-hidden mt-20"
         >
           <h1>
-            CULTURE - FOOD&WINE - SHOPPING - FASHION - SPORTS - TRADITIONS -
+            INNOVATION - INTERACTIVITY- DIGITAL - VIDEO - BRANDING - CREATIVITY
+            -
           </h1>
         </Marquee>
         <Marquee
@@ -42,7 +36,8 @@ function Footer() {
           className="text-4xl overflow-hidden mt-10"
         >
           <h1>
-            CULTURE - FOOD&WINE - SHOPPING - FASHION - SPORTS - TRADITIONS -
+            INNOVATION - INTERACTIVITY- DIGITAL - VIDEO - BRANDING - CREATIVITY
+            -
           </h1>
         </Marquee>
       </div>
@@ -126,7 +121,7 @@ function Footer() {
 
       <div className="text-white flex justify-center">
         <div>
-          <ul className="grid grid-cols-2 md:flex md:justify-center md:items-center md:flex-row gap-14 md:gap-10">
+          <ul className="hello grid grid-cols-2 md:flex md:justify-center md:items-center md:flex-row gap-14 md:gap-10">
             <li>FAQ</li>
             <li>BRAND STUDIO</li>
             <li>CONTACT US</li>
@@ -149,31 +144,6 @@ function Footer() {
           Honoring The Best Of The Internet Since ©1997
         </h1>
       </div>
-
-      {/* <div className="text-white">
-        <Marquee
-          behavior="scroll"
-          direction="right"
-          pauseOnHover
-          className="text-4xl overflow-hidden mt-20"
-        >
-          <h1>
-            CULTURE - FOOD&WINE - SHOPPING - FASHION - SPORTS - TRADITIONS -
-          </h1>
-        </Marquee>
-        <Marquee
-          behavior="scroll"
-          direction="left"
-          pauseOnHover
-          className="text-4xl overflow-hidden mt-10"
-        >
-          <h1>
-            CULTURE - FOOD&WINE - SHOPPING - FASHION - SPORTS - TRADITIONS -
-          </h1>
-        </Marquee>
-      </div> */}
-      {/* <Achievements/> */}
-      {/* <div className="mt-10">df</div> */}
     </>
   );
 }

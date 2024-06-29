@@ -73,7 +73,6 @@ function Video() {
         <h2 className="text-2xl mt-5 ml-4">2024 Featuring Moments in VideoGraphy...</h2>
       </div>
       <div
-        // ref={containerRef}
         className="relative overflow-hidden text-white flex justify-center items-center mt-20 w-full"
       >
         <div className="flex">
@@ -97,14 +96,10 @@ function Video() {
             loop
             autoPlay
             muted
-            // className="h-screen w-full"
-            // className="w-2/5 h-screen object-cover"
-            // ref={videoRef}
           ></video>
         </div>
       </div>
 
-      {/* <div className="relative  w-2/5 w-full  md:w-3/5 flex justify-center items-center m-auto "> */}
       <div className="relative  md:w-3/5 flex justify-center items-center m-auto ">
         <h2
           className="absolute top-96 md:top-64 text-white  md:w-full text-center  text-4xl md:text-6xl opacity-0  block "
@@ -118,7 +113,6 @@ function Video() {
           ADVENTURE
         </h2>
       </div>
-      {/* <A/> */}
       <Achievements />
     </>
   );
