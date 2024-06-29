@@ -100,8 +100,8 @@ function Achievements() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >
-        {data.map((item) => (
-          <SwiperSlide>
+        {data.map((item,index) => (
+          <SwiperSlide key={index}>
             <img
               src={item.image}
               className="absolute inset-0 w-full h-full object-cover"

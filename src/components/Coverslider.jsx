@@ -54,8 +54,8 @@ function Coverslider() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
-          {videoData.map((data) => (
-            <SwiperSlide>
+          {videoData.map((data,index) => (
+            <SwiperSlide key={index}>
               <ReactPlayer
                 url={data.video}
                 loop
