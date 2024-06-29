@@ -59,7 +59,7 @@ function Features() {
           ></video>
         </div>
       </div>
-      {/* <div className=" fixed right-0 bottom-0 z-10">
+      <div className=" fixed right-0 bottom-0 z-10">
         <div>
           <svg
             ref={rotateRef}
@@ -97,17 +97,9 @@ function Features() {
         <div className="absolute inset-0 flex rotate-0 items-center justify-center text-white">
           <RiArrowDownLine size={42} />
         </div>
-      </div> */}
+      </div>
 
-      {/*       
-        <video
-          src="videos/video.mp4"
-          autoPlay
-          loop
-          muted
-          className="w-1/5 h-full"
-          // className="absolute inset-0 w-full h-full object-cover"
-        ></video> */}
+     
       <Video />
     </>
   );

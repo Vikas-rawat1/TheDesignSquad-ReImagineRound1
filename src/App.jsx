@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import New from "./components/New";
+import Menu from "./components/Menu";
 
 function App() {
   const cursorRef = useRef(null);
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <>
+    <Menu/>
       <div
         // id="dot"
         className="bg-transparent border border-dotted border-white rounded-full w-12 h-12 fixed z-10"

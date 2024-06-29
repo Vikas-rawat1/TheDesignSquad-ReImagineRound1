@@ -24,12 +24,6 @@ import { EffectCards } from "swiper/modules";
 function Footer() {
   return (
     <>
-      {/* <div className="flex justify-center items-center h-screen text-white">
-  <h1 className="text-center w-3/5 text-8xl">
-    CAPTURING THE MOMENTS
-  </h1>
-</div> */}
-
       <div className="text-white">
         <Marquee
           behavior="scroll"

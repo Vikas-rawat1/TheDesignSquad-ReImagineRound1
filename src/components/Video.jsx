@@ -2,7 +2,6 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-// import Footer from "./Footer";
 import Achievements from "./Achievements";
 
 function Video() {
@@ -121,85 +120,8 @@ function Video() {
       </div>
       {/* <A/> */}
       <Achievements />
-      {/* <Footer /> */}
     </>
   );
 }
 
 export default Video;
-
-// useEffect(() => {
-//   gsap.to(videoRef.current, {
-//     width: "100%",
-//     scrollTrigger: {
-//       trigger: videoRef.current,
-//       // markers: true,
-//       start: "top 40%",
-//       end: "top -30%",
-//       scrub: true,
-//     },
-//   });
-
-//   return () => {
-//     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-//   };
-// }, []);
-
-// useEffect(() => {
-//   gsap.to(textRef1.current, {
-//     left: "20%",
-//     x: "30%",
-//     // right: "50%",
-//     scrollTrigger: {
-//       trigger: containerRef.current,
-//       // markers: true,
-//       start: "top 40%",
-//       end: "top -30%",
-//       scrub: true,
-//     },
-//   });
-
-//   return () => {
-//     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-//   };
-// }, []);
-
-// useEffect(() => {
-//   gsap.to(textRef2.current, {
-//     // left: "50%",
-// right: "30%",
-// x: "20%",
-
-//     scrollTrigger: {
-//       trigger: containerRef.current,
-//       // markers: true,
-//       start: "top 40%",
-//       end: "top -30%",
-//       scrub: true,
-//     },
-//   });
-
-//   return () => {
-//     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-//   };
-// }, []);
-
-// useEffect(() => {
-//   gsap.to(textRef3.current, {
-//     // left: "50%",
-//     // right: "30%",
-//     // x: "20%",
-
-//     scrollTrigger: {
-//       // trigger: containerRef.current,
-//       // markers: true,
-//       start: "top 40%",
-//       end: "top -30%",
-//       scrub: true,
-//     },
-//   });
-
-//   return () => {
-//     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-//   };
-// }, []);
