@@ -32,7 +32,7 @@ function Features() {
 
         <h2 className="text-2xl mt-5 ml-4">2024 Showing Good Stuff...</h2>
       </div>
-      <div className="md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
+      <div className=" md:ml-10 md:mt-40 md:grid md:grid-cols-2 flex flex-col justify-center m-auto  md:gap-20">
         <div className="md:ml-20 mt-10 md:mt-0">
           <video
             src="videos/goodstuff.mp4"
@@ -58,7 +58,7 @@ function Features() {
           ></video>
         </div>
       </div>
-      <div className=" fixed right-0 bottom-0 z-10">
+      <div className="hidden md:flex fixed right-0 bottom-0 z-10">
         <div>
           <svg
             ref={rotateRef}
