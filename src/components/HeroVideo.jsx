@@ -3,17 +3,21 @@ import React from "react";
 function HeroVideo() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <video
+      {/* <video
         autoPlay
         loop
         muted
         preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
-        {/* <source src="videos/hero.webm" type="video/webm" /> */}
         <source src="videos/hero.mp4" type="video/mp4" />
-        {/* Your browser does not support the video tag. */}
-      </video>
+      </video> */}
+
+      <img
+        src="images/hero.jpeg"
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover"
+      />
       <div className="absolute text-center top-60 md:top-44 md:text-start md:w-4/5 md:ml-20 text-white">
         <h1 className="text-5xl md:text-7xl font-bold mb-8 lg:w-4/5">
           Watch The 28th Annual Webby Awards
