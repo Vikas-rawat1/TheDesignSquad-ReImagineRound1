@@ -1,4 +1,3 @@
-// import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { RiArrowDownLine } from "react-icons/ri";
@@ -40,7 +39,6 @@ function Features() {
             loop
             muted
             className="w-full md:h-5/5"
-            // className="absolute inset-0 w-full h-full object-cover"
           ></video>
         </div>
         <div className="text-white mt-10 md:mt-0 md:text-3xl lg:text-vase">

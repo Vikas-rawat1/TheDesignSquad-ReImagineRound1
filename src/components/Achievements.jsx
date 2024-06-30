@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -26,7 +25,6 @@ function Achievements() {
     },
     {
       image: "images/Webbys.webp",
-      // title: "Lifetime Achievement Celebration",
       content: "Meet the 2024 Special Achievement Winners",
     },
     {
@@ -43,7 +41,6 @@ function Achievements() {
 
   return (
     <>
-      {/* <div className="text-white"> */}
       <div className="text-white md:mt-20  lg:mt-10 text-4xl flex items-center ">
         <Marquee
           behavior="scroll"
@@ -72,8 +69,6 @@ function Achievements() {
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
-        // loop={true}
-        // centeredSlides={true}
         slidesPerView={"auto"}
         spaceBetween={30}
         coverflowEffect={{

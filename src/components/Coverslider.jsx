@@ -1,6 +1,4 @@
-import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -24,7 +22,6 @@ function Coverslider() {
           effect={"coverflow"}
           grabCursor={true}
           loop={true}
-          // centeredSlides={true}
           slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 30,
@@ -39,7 +36,6 @@ function Coverslider() {
             prevEl: ".swiper-button-prev",
           }}
           breakpoints={{
-            //When window width is >=320px
             320: {
               slidesPerView: 2,
               spaceBetween: 2,

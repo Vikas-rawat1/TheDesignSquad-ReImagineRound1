@@ -17,7 +17,6 @@ function Video() {
         trigger: videoRef.current,
         start: "top 60%",
         end: "top -30%",
-        // markers:true,
       },
 
       {
@@ -43,7 +42,6 @@ function Video() {
         end: "top -30%",
       },
     ];
-    // });
     triggers.forEach(
       ({ element, properties, trigger, start, end, markers }) => {
         gsap.to(element, {
