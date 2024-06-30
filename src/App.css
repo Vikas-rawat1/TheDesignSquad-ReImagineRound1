@@ -2,15 +2,12 @@
   font-family: cfont;
   src: url('font/PlayfairDisplay-Black.ttf');
 } */
-@font-face {
+@font-face{
   font-family: cfont;
-  src: url("font/PlayfairDisplay-Regular.ttf");
+  src: url('font/PlayfairDisplay-Regular.ttf');
 }
 
-@font-face {
-  font-family: slabo;
-  src: url("font/SlaboDisplay-Regular.ttf");
-}
+
 
 * {
   margin: 0;
@@ -28,12 +25,7 @@ body {
 .bubble {
   width: 20px;
   height: 20px;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   pointer-events: none; /* So it doesn't interfere with other mouse events */
