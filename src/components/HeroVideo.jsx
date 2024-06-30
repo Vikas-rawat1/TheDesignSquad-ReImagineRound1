@@ -7,7 +7,7 @@ function HeroVideo() {
         autoPlay
         loop
         muted
-        preload="metadata"
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="videos/hero.webm" type="video/webm" />
