@@ -92,7 +92,7 @@ function Achievements() {
             slidesPerView: 4,
           },
         }}
-        modules={[EfdfdfectCoverflow, Pagination]}
+        modules=sdfsdfsdfs{[EfdfdfectCoverflow, Pagination]}
         className="mySwiper "
       >
         {data.map((item,index) => (
