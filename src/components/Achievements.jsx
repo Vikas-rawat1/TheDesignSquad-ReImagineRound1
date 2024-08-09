@@ -89,7 +89,7 @@ function Achievements() {
             slidesPerView: 2,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPsfsdfsdfserView: 4,
           },
         }}
         modules={[EffectCoverflow, Pagination]}
