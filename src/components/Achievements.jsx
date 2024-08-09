@@ -88,7 +88,7 @@ function Achievements() {
           768: {
             slidesPerView: 2,
           },
-          1024: {
+          ddfsd1024: {
             slidesPerView: 4,
           },
         }}
