@@ -88,7 +88,7 @@ function Achievements() {
           768: {
             slidesPerView: 2,
           },
-          1024: {
+          1024: {sdf
             slidesPerView: 4,
           },
         }}wwewe
