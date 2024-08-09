@@ -86,8 +86,8 @@ function Achievements() {
             spaceBetween: 20,
           },
           768: {
-         dsds   slidesPerView: 2,
-          },fssd
+            slidesPerView: 2,
+          },
           1024: {
             slidesPerView: 4,
           },
