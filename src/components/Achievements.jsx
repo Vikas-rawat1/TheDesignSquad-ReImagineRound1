@@ -95,7 +95,7 @@ function Achievements() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >
-        {data.map((item,index) => (sdfgsdf
+        {data.map((item,index) => (
           <SwiperSlide key={index}>
             <img
               src={item.image}
