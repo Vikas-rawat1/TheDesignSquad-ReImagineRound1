@@ -86,15 +86,15 @@ function Achievements() {
             spaceBetween: 20,
           },
           768: {
-            slidesffssPerView: 2,
+            slidesPerView: 2,
           },
-        sfsfsdsd  1024: {
-            cxslidesPerView: 4,
+          1024: {
+            slidesPerView: 4,
           },
         }}
-        modules={[EffectCoverfdssdsdow, Pagination]}
+        modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
-      >sdsd
+      >
         {data.map((item,index) => (
           <SwiperSlide key={index}>
             <img
