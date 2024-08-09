@@ -88,7 +88,7 @@ function Achievements() {
           768: {
             slidesffssPerView: 2,
           },
-        sfsf  1024: {
+        sfsfsdsd  1024: {
             cxslidesPerView: 4,
           },
         }}
