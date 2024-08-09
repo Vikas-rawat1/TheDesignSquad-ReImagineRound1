@@ -91,7 +91,7 @@ function Achievements() {
           1024: {
             slidesPerView: 4,
           },
-        }}
+        }}wwewe
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >
