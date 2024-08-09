@@ -88,10 +88,10 @@ function Achievements() {
           768: {
             slidesPerView: 2,
           },
-          ddfsd1024: {
+          1024: {
             slidesPerView: 4,
           },
-        }}sdss
+        }}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper "
       >
