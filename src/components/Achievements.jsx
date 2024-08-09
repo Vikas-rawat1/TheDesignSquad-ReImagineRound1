@@ -87,7 +87,7 @@ function Achievements() {
           },
           768: {
             slidesPerView: 2,
-          },
+          },sd
           1024: {
             slidesPerView: 4,
           },
