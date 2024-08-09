@@ -94,7 +94,7 @@ function Achievements() {
         }}
         modules={[EffectCoverfdssdsdow, Pagination]}
         className="mySwiper "
-      >
+      >sdsd
         {data.map((item,index) => (
           <SwiperSlide key={index}>
             <img
