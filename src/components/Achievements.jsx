@@ -87,7 +87,7 @@ function Achievements() {
           },
           768: {
             slidesPerView: 2,
-          },ffd
+          },
           1024: {
             slidesPerView: 4,
           },
@@ -96,7 +96,7 @@ function Achievements() {
         className="mySwiper "
       >
         {data.map((item,index) => (
-          <SwipsdfsdfsdfsdferSlide key={index}>
+          <SwiperSlide key={index}>
             <img
               src={item.image}
               className="absolute inset-0 w-full h-full object-cover"
@@ -109,7 +109,7 @@ function Achievements() {
                 {item.content}
               </h1>
             </div>
-          </SwipsdfsdfsdfsdferSlide>
+          </SwiperSlide>
         ))}
       </Swiper>
       <Footer />
