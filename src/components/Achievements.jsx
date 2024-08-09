@@ -87,7 +87,7 @@ function Achievements() {
           },
           768: {
          dsds   slidesPerView: 2,
-          },
+          },fssd
           1024: {
             slidesPerView: 4,
           },
