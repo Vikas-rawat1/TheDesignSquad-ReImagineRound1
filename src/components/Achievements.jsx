@@ -86,10 +86,10 @@ function Achievements() {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 2,
+            slidesffssPerView: 2,
           },
         sfsf  1024: {
-            slidesPerView: 4,
+            cxslidesPerView: 4,
           },
         }}
         modules={[EffectCoverfdssdsdow, Pagination]}
